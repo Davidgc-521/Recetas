@@ -1,0 +1,156 @@
+html{
+	color: white;
+	font-family: Verdana;
+	font-size: 11px;
+}
+
+header{
+	background: black;
+	text-align: center;
+}
+
+#menu{
+	background: #EBC188;
+	position: relative;
+	text decoration: none;
+	border-radius: 15px;
+}
+
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	position: sticky;
+	top: 0;
+}
+
+li{
+	margin: 0px;
+	float: left;
+	width: 50%;
+}
+
+
+li a{
+	display: block;
+	padding: 20px;
+	text-decoration: none;
+	text-align: center;
+	color: black;
+}
+
+li a:hover{
+	background: #E1B071;
+	border-radius: 15px;
+}
+
+body{
+    background: url(Imagenregistro/fond.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black; /* Cambiado a blanco para mejorar la legibilidad */
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+    margin: 0;
+}
+
+#titulo{
+	text-align: center;
+	color: white;
+}	
+
+#parrafo {
+	background: rgba(255, 255, 255, 0.8);
+	border-radius: 15px;
+    color:black;
+	font-size: 25px;
+    text-align: center; /* Centra el texto horizontalmente */
+    max-width: 600px; /* Ajusta el ancho máximo para una mejor lectura */
+    margin: 0 auto; /* Centra el párrafo horizontalmente */
+    line-height: 1.6; /* Ajusta el espaciado entre líneas para mejorar la legibilidad */
+    padding: 20px; /* Añade un poco de espacio alrededor del texto */
+}
+
+.contenedor {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+	background: rgba(255, 255, 255, 0.8);
+}
+
+.contenedor label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contenedor input[type="text"],
+.contenedor input[type="email"],
+.contenedor input[type="password"],
+.contenedor input[type="date"],
+.contenedor select {
+    width: calc(100% - 25px);
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contenedor input[type="submit"],
+.contenedor button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.contenedor input[type="submit"]:hover,
+.contenedor button:hover {
+    background-color: #45a049;
+}
+
+#alerta {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    width: 80%;
+    max-width: 500px;
+    text-align: left;
+    line-height: 1.6;
+}
+
+#alerta p {
+    margin: 10px 0;
+}
+
+#alerta h3 {
+    margin: 0;
+    font-size: 24px;
+    border-bottom: 1px solid white;
+    padding-bottom: 10px;
+}
+
+footer{
+	background: black;
+	padding: 1%;
+	color: white;
+	text-align: center;
+	font-size: 100%;
+	margin-top: 17.5%;
+}

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+
+<html lang="es">
+	
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="registro.css">
+		<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+		<link rel="icon" href="Imagenregistro/icon2.jpg" type="image/x-icon">
+	</head>	
+	
+	<body>
+			<header style="margin: 0px;">
+				
+				<img src="Imagenregistro/icon2.jpg" width="15%" height="0.2%" text-align="center"></img>
+			
+				<div id="menu">
+					<ul>
+						<li><a href="index.html"><b>INICIO</b></a></li>
+						<li><a href="REGISTRO.html"><b>REGISTRATE AQUI</b></a></li>
+					</ul>
+				</div>
+			</header>
+
+				<br><br><h1 id="titulo">Formulario de Registro</h1>
+				<p id="parrafo">Recuerda que al registrarte podrás participar en el sorteo de 3 libros de cocina completamente gratis.</p><br>
+
+		<form>
+		
+			<div class="contenedor">
+			
+				<i class='bx bxs-user'></i><label for="nombre"> Nombre:</label>
+					<input type="text" placeholder="Ej: Neferet" id="nombre" required>
+					<br>
+				
+				<i class='bx bxs-envelope'></i><label>Correo:</label>
+					<input type="email" placeholder="Ej: Neferet@gmail.com" id="correo" required>
+					<br>
+				
+				<i class='bx bxs-lock-alt'></i><label> Contraseña:</label>
+					<input type="password" placeholder="Ej: ***********" id="contrasena" required>
+					<br>
+				
+				<i class='bx bxs-id-card'></i><label> RUT:</label>
+					<input type="text" placeholder="Ej: 11.385.244-5" id="rut" required>
+					<br><br>
+				
+				<label>Genero:</label>
+					<input type="radio" name="genero" id="generoMasculino" value="Masculino"> Masculino
+					<input type="radio" name="genero" id="generoFemenino" value="Femenino"> Femenino
+					<input type="radio" name="genero" id="generoOtro" value="Otro"> Otro
+					<br><br>
+				
+				<label>Conocimiento de cocina:</label>
+					<input type="radio" name="conocimiento" id="conocimientoMucho" value="Mucho"> Mucho
+					<input type="radio" name="conocimiento" id="conocimientoMedio" value="Medio"> Medio
+					<input type="radio" name="conocimiento" id="conocimientoPoco" value="Poco"> Poco
+					<br><br>
+				
+				<i class='bx bxs-flag-alt'></i><label> País:</label>
+					<select id="pais" required>
+						<option value="Ninguno">Ninguno</option>
+						<option value="Brazil">Brazil</option>
+						<option value="Argentina">Argentina</option>
+						<option value="Perú">Perú</option>
+						<option value="Colombia">Colombia</option>
+						<option value="Chile">Chile</option>
+						<option value="Uruguay">Uruguay</option>
+					</select>
+					<br><br>
+				
+				<label>Fecha de Nacimiento:</label>
+					<input type="date" id="fechaNacimiento" required>
+					<br><br>
+				
+				<input type="submit" value="Registrarse" id="btnRegistrar">
+				
+				<a href="index.html">
+				<button type="button">Finalizar</button>
+				</a>
+				
+				<script src="receta.js"></script>
+			
+			</div>
+			
+		</form>
+		
+		<footer>
+		
+			<a href="https://www.instagram.com//">
+				<img src="Imagenregistro/Instagram.jpg" alt="instagram" width="1.5%" height="1.5%"></img>
+			</a>
+			
+			<a href="https://www.facebook.com//">
+				<img src="Imagenregistro/Facebook.jpg" alt="facebook" width="1.5%" height="1.5%"></img>
+			</a>
+			
+			<a href="https://www.youtube.com/user/">
+				<img src="Imagenregistro/Youtube.jpg" alt="youtube" width="2%" height="2%"></img>
+			</a>
+			
+			<a href="https://www.linkedin.com/company//">
+				<img src="Imagenregistro/Linkedin.jpg" alt="linkedin" width="1.75%" height="1.75%"></img>
+			</a>
+			
+			<p>© 2024 Recetas de mi Tierra. Todos los derechos reservados. Este sitio web y su contenido están protegidos por las leyes de derechos de autor y otras leyes de propiedad intelectual. Cualquier reproducción total o parcial sin la autorización expresa de Recetas de mi Tierra está estrictamente prohibida.</p>
+		
+		</footer>
+		
+	</body>
+	
+</html>

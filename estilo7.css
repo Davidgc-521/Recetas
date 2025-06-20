@@ -1,0 +1,71 @@
+*{
+	padding:0;
+	margin:0;
+}
+body{
+	background: url(Imagenes7/fondo.jpg);			/*color de fondo de la pagina background-color o al ponerle background: url(fond.jpg)*/
+}
+h1{ 							/*personalizacion del titulo*/
+	text-align: center;        
+	background-color:black;		/*color de fondo del titulo*/
+	color:white;				/*color de texto*/
+	padding:20px;
+}
+nav ul{							/*navegacion*/
+	background-color: #BDB9A2;	/*color de fondo de la navegacion*/
+	width:100%;					/*ancho de la barra de navegacion*/
+	list-style-type: none;
+	text-align: center;
+}
+nav li{							
+	display: inline-flex;		/*para que el menu se pongan hacia el lado*/
+}
+nav a{
+	text-decoration: none;
+	color: white;
+	padding:10px;
+	width: 150px;
+}
+nav li:hover{
+	background-color: #A6D358 ;    /*color del menu al pasar por el */
+}
+img{
+	width:200px;				/*ancho*/
+	height:200px;				/*alto*/
+	border-radius:50%;			/*genera el circulo*/
+	object-fit: cover;			/*adapta la iamgen al contenido*/
+}
+.contenido{
+	display: flex;
+	margin: 60px;
+}
+.articulos{
+	width:80%;
+	border-right: 3px solid black; /*la barrita que separa el menu secundario*/
+}
+.secciones{
+	display:flex;					
+	align-items:center;
+	padding:40px;
+}
+.menu-secundario{
+	width: 20%;
+	margin-top:80px;       /*separa el menu secundario de la barra de menu*/
+}
+.menu-secundario a {
+	display: block;			/*para que se pongan uno arriba del otro el menu secundario*/
+	text-align: center;
+	color: black;
+	margin-bottom:40px;		/*para separarlas */
+}
+footer{
+	width: 100%;				/*ancho*/
+	height:200px;				/*alto*/
+	background-color: black;	/*color de fondo*/
+	color: white;				/*color de la letra*/
+	margin-top:40px;			
+}
+footer p {
+	text-align:center;
+	padding:90px;  				/*separar de los bordes*/
+}
